@@ -9,5 +9,13 @@
 
         <!-- enable window content transitions -->
         <item name="android:windowActivityTransitions" tools:targetApi="lollipop">true</item>
+        
+    </style>
+
+    <style name="TransparentTheme" parent="AppTheme">
+        <item name="colorPrimaryDark">#000000</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowIsTranslucent">true</item>
     </style>
 </resources>

@@ -16,7 +16,7 @@
 
     </com.google.android.material.appbar.AppBarLayout>
 
-    <com.github.chrisbanes.photoview.PhotoView
+    <com.wuzy.photoviewex.PhotoView
         android:id="@+id/iv_photo"
         android:layout_width="match_parent"
         android:layout_height="match_parent"

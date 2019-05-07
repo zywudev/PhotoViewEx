@@ -30,7 +30,8 @@
 
         <activity android:name=".ActivityTransitionActivity" />
 
-        <activity android:name=".ActivityTransitionToActivity" />
+        <activity android:name=".ActivityTransitionToActivity"
+            android:theme="@style/TransparentTheme"/>
 
         <activity android:name=".ImmersiveActivity" />
     </application>
